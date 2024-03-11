@@ -1,0 +1,47 @@
+2023/12/09 12:58:11,018 [INFO ]  [org.springframework.boot.StartupInfoLogger] [restartedMain]- Starting SoulApplication using Java 17.0.9 with PID 9280 (C:\Users\APPNIX\IdeaProjects\soul\target\classes started by APPNIX in C:\Users\APPNIX\IdeaProjects\soul)
+ -2023/12/09 12:58:11,028 [INFO ]  [org.springframework.boot.SpringApplication] [restartedMain]- No active profile set, falling back to 1 default profile: "default"
+ -2023/12/09 12:58:11,558 [WARN ]  [org.mybatis.logging.Logger] [restartedMain]- No MyBatis mapper was found in '[com.springboot.soul]' package. Please check your configuration.
+ -2023/12/09 12:58:11,942 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- Initializing ProtocolHandler ["http-nio-8080"]
+ -2023/12/09 12:58:11,944 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- Starting service [Tomcat]
+ -2023/12/09 12:58:11,945 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- Starting Servlet engine: [Apache Tomcat/10.1.15]
+ -2023/12/09 12:58:12,090 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+ -2023/12/09 12:58:12,096 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- Initializing Spring embedded WebApplicationContext
+ -2023/12/09 12:58:12,566 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [restartedMain]- Starting ProtocolHandler ["http-nio-8080"]
+ -2023/12/09 12:58:12,606 [INFO ]  [org.springframework.boot.StartupInfoLogger] [restartedMain]- Started SoulApplication in 1.846 seconds (process running for 2.625)
+ -2023/12/09 12:58:49,552 [INFO ]  [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+ -2023/12/09 12:58:56,386 [INFO ]  [com.zaxxer.hikari.HikariDataSource] [http-nio-8080-exec-8]- HikariPool-1 - Starting...
+ -2023/12/09 12:58:56,740 [INFO ]  [com.zaxxer.hikari.pool.HikariPool] [http-nio-8080-exec-8]- HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@20dde09d
+ -2023/12/09 12:58:56,741 [INFO ]  [com.zaxxer.hikari.HikariDataSource] [http-nio-8080-exec-8]- HikariPool-1 - Start completed.
+ -2023/12/09 12:58:56,762 [DEBUG]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-8]-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT COUNT(*) FROM TB_USER_REGISTER WHERE USER_ID = 'ewr'
+ {executed in 9 msec}
+ -2023/12/09 12:58:56,769 [INFO ]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-8]- 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+ -2023/12/09 12:59:01,335 [DEBUG]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-9]-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT COUNT(*) FROM TB_USER_REGISTER WHERE USER_ID = 'a31950'
+ {executed in 1 msec}
+ -2023/12/09 12:59:01,335 [INFO ]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-9]- 
+|---------|
+|count(*) |
+|---------|
+|0        |
+|---------|
+
+ -2023/12/09 12:59:03,724 [DEBUG]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-10]-  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT COUNT(*) FROM TB_USER_REGISTER WHERE USER_ID = 'a123'
+ {executed in 1 msec}
+ -2023/12/09 12:59:03,724 [INFO ]  [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-8080-exec-10]- 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+ -2023/12/09 13:02:24,072 [INFO ]  [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook]- HikariPool-1 - Shutdown initiated...
+ -2023/12/09 13:02:24,087 [INFO ]  [com.zaxxer.hikari.HikariDataSource] [SpringApplicationShutdownHook]- HikariPool-1 - Shutdown completed.
+ -
