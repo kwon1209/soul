@@ -41,9 +41,9 @@
 		<br><br>
 		<p class="font_8" style=" font-size: 16px;">
 			<span>상호 : (주)포트폴리언</span>
-			 &nbsp;|&nbsp; 대표 : 박헌민&nbsp; |&nbsp; 사업자등록번호: 459-15-01660<br>
+			 &nbsp;|&nbsp; 대표 : 박헌권&nbsp; |&nbsp; 사업자등록번호: 459-15-01660<br>
 			주소 : 대전시 서구 괴정동 1356 (우편번호 : 34433)<br> 팩스 :
-			0504-450-5055&nbsp; |&nbsp; 서비스 이용문의 : 010-2202-5055<br> 
+			0504-450-5055&nbsp; |&nbsp; 서비스 이용문의 : 010-3867-3195<br> 
 		</p>
 
 		<p class="font_8" style="text-align: center; font-size: 16px;">
