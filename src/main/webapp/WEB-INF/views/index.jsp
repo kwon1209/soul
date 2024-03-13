@@ -31,12 +31,13 @@
 	</form>
 
 	<button type="button" class="submit-btn" data-bs-toggle="modal" data-bs-target="#myModal">회원가입</button>
+	
 	<div class="divider">
 		<span>or</span>
 	</div>
 	
 			<input type="button" value="카카오톡으로 로그인" class="submit-kakao" id="kakao"> 
-			<input type="button" value="구글계정으로 로그인" class="submit-google">
+			<input type="button" value="구글계정으로 로그인" class="submit-google" id="google">
 	
 	<div class="links">
 		<a href="#">비밀번호를 잊어버리셨나요?</a>
@@ -115,8 +116,20 @@
 </body>
 </html>
 
+
 <script>
 $("#kakao").on("click", function() {
+	$.ajax({
+		url : "${contextPath}/modal/joinUser.do",
+		type : "POST",
+		dataType : "json",
+		success : function(result) {
+			console.log("다 잘될꺼야!");
+		}
+	});
+});
+
+$("#google").on("click", function() {
 	$.ajax({
 		url : "${contextPath}/modal/joinUser.do",
 		type : "POST",
